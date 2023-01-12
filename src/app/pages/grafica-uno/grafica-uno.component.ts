@@ -1,16 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-grafica-uno',
   templateUrl: './grafica-uno.component.html',
-  styles: [
-  ]
+  styles: [],
 })
-export class GraficaUnoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class GraficaUnoComponent {}
