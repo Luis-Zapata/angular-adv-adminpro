@@ -12,6 +12,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgreesComponent } from './progrees/progrees.component';
 import { GraficaUnoComponent } from './grafica-uno/grafica-uno.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +20,14 @@ import { PagesComponent } from './pages.component';
     ProgreesComponent,
     GraficaUnoComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   exports: [
     DashboardComponent,
     ProgreesComponent,
     GraficaUnoComponent,
     PagesComponent,
+    AccountSettingsComponent,
   ],
   imports: [
     FormsModule,
